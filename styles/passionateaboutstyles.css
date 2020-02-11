@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #777;
+    scroll-behavior: smooth;
+}
+
+.text-container {
+    float: middle;
+    background-image: linear-gradient(to right bottom, #ffccd5c9 , #f59eaec9);
+    text-align: center;
+}

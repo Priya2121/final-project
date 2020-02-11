@@ -1,0 +1,251 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777;
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #ffccd5c9 , #f59eaec9),
+    url(../images/pri-remo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.logo-container {
+  font-size: 60px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  padding: 10px;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.logo-container:hover {
+  font-weight: 600;
+  font-size: 60px;
+  color: red;
+}
+
+.heading-main {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+
+   /*Add animation to the css class */
+   animation-name: animationFromLeft;
+   animation-duration: 4s;
+   /* animation-iteration-count: 3; */
+   animation-timing-function: ease-out;
+   
+}
+
+.heading-subsection {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 10px;
+
+  /*Add animation to the css class */
+  animation-name: animationFromRight;
+  animation-duration: 6s;
+}
+
+@keyframes animationFromLeft {
+  0% {
+    opacity: 0;
+    color: darkblue;
+    transform: translate(-100px, 0);
+  }
+
+  50% {
+    color: goldenrod;
+  }
+  
+
+  100% {
+    opacity: 1;
+    color: black;
+    transform: translate(0);
+  }
+}
+
+@keyframes animationFromRight {
+  0% {
+    opacity: 0;
+    color: white;
+    transform: translate(100px, 0);
+  }
+
+  50% {
+    color: gold;
+  }
+
+  100% {
+    opacity: 1;
+    color: black;
+    transform: translate(0);
+  }
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.about-me-container {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px 0 5px 0;
+  background-color: black;
+  width: 150px;
+  position: fixed;
+  bottom: 10px;
+  left: 500px
+}
+
+.passionate-about-container {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px 0 5px 0;
+  background-color: black;
+  width: 200px;
+  position: fixed;
+  bottom: 10px;
+  left: 750px
+}
+.contact-me-container {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px 0 5px 0;
+  background-color: black;
+  width: 150px;
+  position: fixed;
+  bottom: 10px;
+  right: 750px
+}
+
+.what-i-do-container {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px 0 5px 0;
+  background-color: black;
+  width: 200px;
+  position: fixed;
+  bottom: 10px;
+  right: 500px
+}
+
+.about {
+  color: white;
+  text-decoration: none;
+}
+
+.passionate {
+  color: white;
+  text-decoration: none;
+}
+
+.contactme {
+  color: white;
+  text-decoration: none;
+}
+.whatido {
+  color: white;
+  text-decoration: none;
+}
+
+/* .home-container{
+  position: absolute;
+  bottom: 10px;
+} */
+
+/* Apply media query on screens smaller than 720px */
+@media screen and (max-width: 720px) {
+  /* Remove image on smaller screens */
+  .header {
+    background-image: linear-gradient(to right bottom, #ffccd5c9 , #f59eaec9);
+  }
+  .logo-container {
+    font-size: 30px;
+    top: 20px;
+    left: 20px;
+  }
+
+  .heading-main {
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-indent: 20px;
+  }
+
+  .heading-subsection {
+    font-size: 10px;
+    letter-spacing: 4.3px;
+    text-indent: 20px;
+  }
+
+  .about-me-container {
+    font-size: 10px;
+  
+    border-radius: 5px 0 5px 0;
+    background-color: black;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 50px
+  }
+  
+  .passionate-about-container {
+    font-size: 10px;
+    
+    border-radius: 5px 0 5px 0;
+    background-color: black;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 120px
+  }
+  .contact-me-container {
+    font-size: 10px;
+    
+    border-radius: 5px 0 5px 0;
+    background-color: black;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 120px
+  }
+  
+  .resume-container {
+    font-size: 10px;
+    
+    border-radius: 5px 0 5px 0;
+    background-color: black;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 50px
+  }
+  
+
+}
+

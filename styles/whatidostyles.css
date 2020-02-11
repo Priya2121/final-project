@@ -1,0 +1,58 @@
+
+  body{
+    background-image: linear-gradient(to right bottom, #ffccd5c9 , #f59eaec9),
+    url(../images/me-work2.jpg);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    width: 38%;
+    /* float: middle; */
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 10px;
+    position: fixed;
+    top: 120px;
+    right: 70px;
+    
+}
+
+.bottom-section {
+    width: 58%;
+    float: bottom;
+    border-style: solid;
+    border-width: 10px;
+   
+}
+
+.inner-top-section{
+    padding: 10px;
+}
+
+.image-pro {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.image {
+    position: relative;
+}
+.name-pro {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Great Vibes",cursive;
+    font-size: 30px;
+    background-image: linear-gradient(to left bottom, #ffccd5c9 , #f59eaec9);
+  }
+  
+  /* Full-width input fields */
+  input[type="text"] {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 16px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+ 
+.contact-me-outer-container {
+    background-image: linear-gradient(to middle bottom, #ffccd5c9 , #f59eaec9);
+    height: 100px;
+
+}
+
+.contact-me-inner-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 20px;
+}
+.heading-container {
+  text-align: center;
+}
+
+.sub-heading-container {
+  text-align: center;
+  font-size: 30px;
+  word-spacing: 5px;
+}
+
+.field-container {
+  margin: 10px;
+}
+.submit-button {
+  background-color: palevioletred;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 25px;
+  margin-top: 20px;
+  font-family: "Great Vibes",cursive ;
+}
+
+.submit-button:hover {
+  opacity: 1;
+}
+
+
